@@ -18,7 +18,7 @@ decodeColor(1)
 decodeColor(2)
 decodeColor("x")*/
 
-//Assignment soln
+//Assignment solution
 function operators(n1,operator,n2){
     switch(operator){
         case "+":
