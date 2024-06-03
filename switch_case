@@ -1,0 +1,51 @@
+/*function decodeColor( code ){
+    switch(code){
+        case 1:
+            console.log("red");
+            break;
+        case 2:
+            console.log("gray");
+            break;
+        case "x":
+            console.log("black");
+            break;
+        default:
+            console.log("white")
+    }
+}
+
+decodeColor(1)
+decodeColor(2)
+decodeColor("x")*/
+
+//Assignment soln
+function operators(n1,operator,n2){
+    switch(operator){
+        case "+":
+            console.log(`addition is: ${n1+n2}`);
+            break;
+        case "subtract":
+            console.log(`subtraction is: ${n1-n2}`);
+            break;
+        case "*":
+            console.log(`multiplication is: ${n1 * n2}`);
+            break;
+        case "/":
+            console.log(`division is: ${n1/n2}`);
+            break;
+        case "%":
+            console.log(`mod is: ${n1 % n2}`);
+            break;
+        case "**":
+            console.log(`exp is: ${n1 ** n2}`);
+            break;
+    }
+
+}
+
+operators(operators="+",n1=20,n2=10)
+operators(20,"subtract",10)
+operators(20,"*",10)
+operators(20,"/",10)
+operators(20,"%",10)
+operators(20,"**",10)
